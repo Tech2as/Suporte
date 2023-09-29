@@ -1,0 +1,32 @@
+form textarea{
+    resize: none;
+    height: 105px;
+}
+
+form input[type="radio"]{
+    margin: 15px 0;
+}
+/*
+aplica a margin só no segundo elemento radio, o primeiro fica "quase grudado" e fixo como passado lá em cima
+*/
+form input[type="radio"]:not(:first-child){
+    margin-left: 15px;
+}
+
+.status span{
+    padding-left: 0.5em;
+    font-size: 1.3em;
+}
+
+.status{
+    margin-bottom: 1em;
+}
+
+.att-btn{
+    height: 35px;
+    border: 0;
+    border-radius: 4px;
+    background-color: green;
+    color: #FFF;
+    font-size: 1.3rem;
+}
