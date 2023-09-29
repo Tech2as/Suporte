@@ -44,8 +44,10 @@ export default function SignIn(){
                     <button type="submit">
                         {loadingAuth ? 'Carregando...' : 'Login'}
                     </button>
+                   
                 </form>
                 <Link to="/register">Cadastre-se</Link>
+                <h6>v1.0</h6>
             </div>
         </div>
     )

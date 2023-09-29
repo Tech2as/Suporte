@@ -54,6 +54,7 @@ export default function SignUp(){
                     </button>
                 </form>
                 <Link to="/">Possui conta?</Link>
+                <h6>v1.0</h6>
             </div>
         </div>
     )
